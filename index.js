@@ -2,96 +2,91 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
+const generateMarkdown = require('./util/generateMarkdown');
 
 
 // array of questions for user
-function promptUser() {
-    return inquirer.prompt([
+const questions = [
+
         {
             type: "input",
-            message: "What is your GitHub username?",
-            name: "username"
-        },
-        {
-            type: "input",
-            message: "What is your email address?",
-            name: "email"
-        },
-        {
-            type: "input", 
+            name: "title",
             message: "What is the name of your Project?",
-            name: "title"
         },
         {
             type: "input",
-            message: "Please enter a description of your project.",
-            name: "description"
-        },
-        {
-            type: "input",
-            message: "What are the steps required to install this project?",
-            name: "installation"
-        },
-        {
-            type: "input",
-            message: "How would you like your project to be used?",
-            name: "usage"
-        },
-        {
-            type: "input",
-            message: "What does the user need to know about contributing to the project?",
-            name: "contribution"
-        },
-        {
-            type: "checkbox",
-            message: "Please select a license.",
-            choices: [
-                "Apache 2.0",
-                "MIT",
-                "GPL 3.0",
-                "ISC",
-                "BSD 3",
-                "None"
-            ],
-            name: "license"
+            name: "description",
+            message: "Please enter a detailed description of your project and provide any steps necessary.",
         },
         {
             type: "input",
             name: "installation",
-            message: "What command should be used to install dependencies?",
-            default: "npm i"
+            message: "What should the user install to run this application? (any dependencies)?",
+            default: "npm i",
         },
         {
             type: "input",
-            name: "test",
-            message: "What command is required to run tests?",
-            default: "npm test"
+            name: "usage",
+            message: "How would you like your application to be used?",
         },
         {
+            type: "input",
+            name: "contribution",
+            message: "Did anyone else contribute to this project? (provide github usernames)",
+        },
+        {
+            type: "checkbox",
+            name: "license",
+            message: "Please select a license.",
+            choices: [
+                "Apache 2.0 License",
+                "MIT License",
+                "GNU General Public License v3.0",
+                "GPL 3.0 License",
+                "ISC License",
+                "BSD 3-Clause License",
+                "None",
+            ]
+        },
+        {
+            type: "input",
+            name: "tests",
+            message: "What command is required to test this app?",
+            default: "npm test",
+        },
+        {
+            type: "input",
+            name: "username",
+            message: "What is your GitHub username?",
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "What is your email address?",
+        },
+    ];
 
-        }
-
-    ])
-}
-const questions = [
-{
-    type: "input", 
-    message: "What is the name of your Project?",
-    name: "title"
-}
-];
 
 // function to write README file
 function writeToFile(fileName, data) {
-    return fs.writeToFileSync(path.join(process.cwd(), fileName), data);
+    fs.writeFile(fileName, data, function(err) {
+        console.log(fileName);
+        console.log(data);
+        if (err) {
+            return console.log(err);
+        } else {
+            console.log("Success!");
+        }
+    })
 }
+
 
 // function to initialize program
 function init() {
     inquirer.prompt(questions)
-    .then((inquirerResponses) => {
+    .then(function(data) {
         console.log("Generating README...");
-        writeToFile("README.md", generateMarkdown({...inquirerResponses}));
+        writeToFile("README.md", generateMarkdown(data));
     })
 }
 

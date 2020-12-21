@@ -1,10 +1,12 @@
-
+// function to generate markdown for README
+function generateMarkdown(data) {
+  return `
   
-  # Professional-README-Generator
+  # ${data.title}
   
 
   ## Description
-   This application provides developers with the outline to create a professional, quality README.md file in an efficient and clean way.
+  ${data.description}
 
   ## Table of Contents
   
@@ -18,27 +20,31 @@
 
   ## Installation
   The following dependencies are required to be installed for this application to run properly:
-    • inquirer, fs
+      ${data.installation}
 
   ## Usage
   Please follow the directions below in order to run this app:
-    • run in the terminal
+      ${data.usage}
 
   ## License
-  This application is licensed under the MIT License.
-    • ![GitHub License](https://img.shields.io/badge/license-MIT License-yellow.svg)
+  This application is licensed under the ${data.license}.
+      ![GitHub License](https://img.shields.io/badge/license-${data.license}-yellow.svg)
 
   ## Contribution
   Contributors:
-    • N/A
+      ${data.contribution}
     
   ## Tests
   The following is needed to run the test: 
-    • node index.js
+      ${data.tests}
     
   ## Questions
   For any other questions about this project, please visit my GitHub page below:
-      [GitHub Profile](https://github.com/nsc9605/Professional-README-Generator)
+      [GitHub Profile](https://github.com/${data.username}/${data.title})
     
-  Or you can email me directly at: nsc9605@gmail.com
+  Or you can email me directly at: ${data.email}
   
+`;
+}
+
+module.exports = generateMarkdown;
