@@ -27,8 +27,8 @@ function generateMarkdown(data) {
       ${data.usage}
 
   ## License
-  This application is licensed under the ${data.license} License.
-      ![GitHub License](https://img.shields.io/badge/license-${data.license}-yellow.svg)
+  This application is licensed under the ${data.license} License
+      ![GitHub License](https://img.shields.io/badge/license-${data.license}-orange.svg)
 
   ## Contribution
   Contributors:
