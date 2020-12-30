@@ -2,7 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
-const generateMarkdown = require('../util/generateMarkdown');
+const generateMarkdown = require('./util/generateMarkdown');
 
 
 // array of questions for user
@@ -38,7 +38,7 @@ const questions = [
                   "key": "mit",
                   "name": "MIT License",
                   "spdx_id": "MIT",
-                  "url": "https://api.github.com/licenses/mit",
+                  "url": "https://opensource.org/licenses/MIT",
                 },
                 {
                   "key": "lgpl-3.0",
@@ -121,7 +121,7 @@ function init() {
     inquirer.prompt(questions)
     .then(function(data) {
         console.log("Generating README...");
-        writeToFile("README.md", generateMarkdown(data));
+        writeToFile("./demo-readme/README.md", generateMarkdown(data));
     })
 }
 

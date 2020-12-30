@@ -1,10 +1,11 @@
 
   
-  # generate readme
+  # PRO-README
     [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  fdafds
+
+  create a readme file quikc
 
   ## Table of Contents
   
@@ -17,28 +18,38 @@
  
 
   ## Installation
+
   The following dependencies are required to be installed for this application to run properly:
-      fdsa
+      
+      npm i
 
   ## Usage
+
   Please follow the directions below in order to run this app:
-      ffdsafdsagdsagdsa
+
+      run in terminal
 
   ## License
+
   This application is licensed under the MIT License 
 
 
   ## Contribution
+
   Contributors:
+  
       no
+
     
   ## Tests
   The following is needed to run the test: 
+
       npm test
     
   ## Questions
+
   For any other questions about this project, please visit my GitHub page below:
-      [GitHub Profile](https://github.com/nsc9605/generate readme)
+      [GitHub Profile](https://github.com/nsc9605/PRO-README)
     
-  Or you can email me directly at: [](mailto:).
+  Or you can email me directly at: [nsc9605@gmil.com](mailto:nsc9605@gmil.com).
   

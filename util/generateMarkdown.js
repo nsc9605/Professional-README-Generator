@@ -16,12 +16,14 @@ function generateMarkdown(data) {
  
     // Set URL for license badge information
     // data.shieldBadge = badgeLinks[data.license];
+
   return `
   
   # ${data.title}
     ${shieldBadge[data.license]}
 
   ## Description
+
   ${data.description}
 
   ## Table of Contents
@@ -35,26 +37,36 @@ function generateMarkdown(data) {
  
 
   ## Installation
+
   The following dependencies are required to be installed for this application to run properly:
+      
       ${data.installation}
 
   ## Usage
+
   Please follow the directions below in order to run this app:
+
       ${data.usage}
 
   ## License
+
   This application is licensed under the ${data.license} 
 
 
   ## Contribution
+
   Contributors:
+  
       ${data.contribution}
+
     
   ## Tests
   The following is needed to run the test: 
+
       ${data.tests}
     
   ## Questions
+
   For any other questions about this project, please visit my GitHub page below:
       [GitHub Profile](https://github.com/${data.username}/${data.title})
     
