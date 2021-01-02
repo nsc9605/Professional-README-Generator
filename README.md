@@ -21,13 +21,17 @@
 
   ## Table of Contents
   
+
+  * [Demonstration](#demonstration)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Demonstration](#demonstration)
   * [License](#license)
   * [Technologies](#technologies)
   * [Questions](#questions)
  
+
+  ## Demonstration
+  ![Terminal Demo](assets/terminal-screenshot.png)
 
   ## Installation
   This application requires the installment of 'inquirer' and 'fs' to run properly. To install the required dependencies, please run:
@@ -40,9 +44,6 @@
   ```
     node index.js
   ```
-
-  ## Demonstration
-  ![Terminal Demo](assets/terminal-screenshot.png)
 
   ## License
   This application is licensed under the [MIT License](https://opensource.org/licenses/MIT)
