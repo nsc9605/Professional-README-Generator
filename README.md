@@ -1,6 +1,7 @@
 
   
-  # Professional-README-Generator [![GitHub License](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  # Professional-README-Generator 
+  [![GitHub License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
 
   ## Description
@@ -22,42 +23,40 @@
   
   * [Installation](#installation)
   * [Usage](#usage)
+  * [Demonstration](#demonstration)
   * [License](#license)
-  * [Contribution](#contribution)
   * [Technologies](#technologies)
   * [Questions](#questions)
  
 
   ## Installation
-  The following dependencies are required to be installed for this application to run properly:
+  This application requires the installment of 'inquirer' and 'fs' to run properly. To install the required dependencies, please run:
   ```
       npm i
   ```
 
   ## Usage
-  Please follow the directions below in order to run this app:
+  After the required dependencies are installed, please navigate into the folder containing index.js and run the following command line:
   ```
-    Navigate into the 'main' folder in the terminal/gitbash
-    run node index.js
+    node index.js
   ```
+
+  ## Demonstration
+  ![Terminal Demo](assets/terminal-screenshot.png)
 
   ## License
-  This application is licensed under the [![GitHub License](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  This application is licensed under the [MIT License](https://opensource.org/licenses/MIT)
 
-  ## Contribution
-  Contributors:
-  ```
-     Provide github usernames if any
-  ```
 
   ## Technologies 
-  * Node.js 
-  * Inquirer
-  * VS Code
+  * [Node.js](https://nodejs.org) 
+  * [Inquirer](https://npmjs.com/package/inquirer)
+  * [VS Code](https://code.visualstudio.com/)
+
 
   ## Questions
-  For any other questions about this project, please visit my GitHub page below:
+  For any other questions about this project, please visit my GitHub page:
       [GitHub Profile](https://github.com/nsc9605/Professional-README-Generator)
     
-  Or you can email me directly at: nsc9605@gmail.com
+  Or you can email me directly at: [Nicole Catapano](mailto:nsc9605@gmail.com)
   

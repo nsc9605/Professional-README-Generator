@@ -1,7 +1,7 @@
 // Require files for info
 const inquirer = require("inquirer");
 const fs = require("fs");
-const util = require("util");
+// const util = require("util");
 const generateMarkdown = require("./util/generateMarkdown");
 
 // array of questions for user
@@ -30,7 +30,7 @@ const questions = [
     message: "How would you like your application to be used?",
   },
   {
-    type: "list",
+    type: "checkbox",
     name: "license",
     message: "Please select a license.",
     choices: [
@@ -103,7 +103,7 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
+writeToFile = (fileName, data) => {
   fs.writeFile(fileName, data, function (err) {
     console.log(fileName);
     console.log(data);
@@ -119,7 +119,7 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions).then(function (data) {
     console.log("Generating README...");
-    writeToFile("./demo-readme/README.md", generateMarkdown(data));
+    writeToFile("./demo/README.md", generateMarkdown(data));
   });
 }
 
