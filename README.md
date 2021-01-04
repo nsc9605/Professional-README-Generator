@@ -5,7 +5,7 @@
   
 
   ## Description
-   This application aims to assist developers with a template design to create a professional, quality README.md file in an efficient and clean way. This prompts the user to answer a set of questions/information that will help build a proper README.md file. The user is taken step by step through each section a README should have for each application--ensuring they never forget important sections! The user will be asked to provide the following:
+   This application aims to assist developers with a template design to create a professional, quality README.md file in an efficient and clean way. When the application runs, it presents a series of prompts for the user to answer that will help build a proper README.md file. The user is taken step by step through each section that a README should have for each application--ensuring they never forget important sections! The user will be asked to provide the following:
 
    * Name of their project
    * Detailed description of the project
@@ -17,7 +17,7 @@
    * Github username
    * Email address
 
-   This information is then used to fill out the Professional README Generator template provided by the generatedMarkdown file.
+   This information is then used to fill out the Professional README Generator template provided by the generatedMarkdown file. This newly generated README is then saved in the demo folder.
 
   ## Table of Contents
   
@@ -31,7 +31,8 @@
  
 
   ## Demonstration
-  ![Terminal Demo](assets/terminal-screenshot.png)
+  ![Terminal Demo](develop/assets/terminal-screenshot.png)
+
 
   ## Installation
   This application requires the installment of 'inquirer' and 'fs' to run properly. To install the required dependencies, please run:
@@ -40,7 +41,7 @@
   ```
 
   ## Usage
-  After the required dependencies are installed, please navigate into the folder containing index.js and run the following command line:
+  After the required dependencies are installed, please navigate into the 'develop' folder containing index.js and run the following command line:
   ```
     node index.js
   ```
