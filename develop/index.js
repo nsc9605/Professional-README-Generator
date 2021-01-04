@@ -1,7 +1,7 @@
 // Require files for info
 const inquirer = require("inquirer");
 const fs = require("fs");
-// const util = require("util");
+const util = require("util");
 const generateMarkdown = require("./util/generateMarkdown.js");
 
 // array of questions for user
@@ -14,14 +14,12 @@ const questions = [
   {
     type: "input",
     name: "description",
-    message:
-      "Please enter a detailed description of your project and provide any steps necessary.",
+    message: "Please enter a detailed description of your project and provide any steps necessary.",
   },
   {
     type: "input",
     name: "installation",
-    message:
-      "What should the user install to run this application? (any dependencies)?",
+    message: "What should the user install to run this application? (any dependencies)?",
     default: "npm i",
   },
   {
@@ -81,8 +79,7 @@ const questions = [
   {
     type: "input",
     name: "contribution",
-    message:
-      "Did anyone else contribute to this project? (provide github usernames)",
+    message: "Did anyone else contribute to this project? (provide github usernames)",
   },
   {
     type: "input",

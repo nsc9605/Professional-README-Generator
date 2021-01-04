@@ -31,8 +31,23 @@
  
 
   ## Demonstration
-  ![Walk Through Demo](https://drive.google.com/file/d/1dlkTVYTTdQeQ3sAOe-ueMI_DB_QEucso/view)
+  Examples of views in the command line of the application: 
   ![Terminal Demo](develop/assets/terminal-screenshot.png)
+
+  Code snippets:
+  ![Require files](develop/assets/require.png)
+
+  ![Function declarations to run application](develop/assets/code.png)
+
+  ![Snippet of badge markdowns](develop/assets/badges.png)
+
+
+  GIF of walk through video:
+
+  ![Walk Through Gif](develop/assets/walkthrough.gif)
+
+
+  For a full demonstration, please click: [Walk Through Demo](https://youtu.be/73_CB5p1jHg)
 
 
   ## Installation
