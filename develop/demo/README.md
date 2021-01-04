@@ -1,12 +1,12 @@
 
   
-  # Professional-README-Generator
+  # Professiona-README-Generator
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
    
 
   ## Description
 
-  This application helps in assisting developers in creating a quality README.md in a quick and efficient way for any projects they may have..
+  This application helps in assisting developers in creating a quality README.md in a quick and efficient way.
 
   ## Table of Contents
   
@@ -28,7 +28,8 @@
 
   Please follow the directions below in order to run this app:
 
-      run in the terminal
+      Run in the terminal
+
 
   ## License
 
@@ -46,10 +47,11 @@
   The following is needed to run the test: 
 
       npm test
+      
     
   ## Questions
 
-  For any other questions about this project, please visit my GitHub page: [GitHub Profile](https://github.com/nsc9605/Professional-README-Generator).
+  For any other questions about this project, please visit my GitHub page: [GitHub Profile](https://github.com/nsc9605/Professiona-README-Generator).
     
   Or you can email me directly at: [Nicole Catapano](mailto:nsc9605@gmail.com).
   

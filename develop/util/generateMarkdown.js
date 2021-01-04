@@ -20,6 +20,7 @@ function generateMarkdown(data) {
 
   ${data.description}.
 
+  
   ## Table of Contents
   
   * [Installation](#installation)
@@ -36,11 +37,13 @@ function generateMarkdown(data) {
       
       ${data.installation}
 
+
   ## Usage
 
   Please follow the directions below in order to run this app:
 
       ${data.usage}
+
 
   ## License
 
@@ -58,6 +61,7 @@ function generateMarkdown(data) {
   The following is needed to run the test: 
 
       ${data.tests}
+      
     
   ## Questions
 
