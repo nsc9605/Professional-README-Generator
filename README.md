@@ -31,20 +31,20 @@
  
 
   ## Demonstration
-  Examples of views in the command line of the application: 
+  ### Examples of views in the command line of the application: 
   ![Terminal Demo](develop/util/terminal-screenshot.png)
 
-  Functions on how to initialize program:
+  ### Functions on how to initialize program:
   ![Function declarations to run application](develop/util/code.png)
 
-  GIF of walk through video:
+  ### GIF of walk through video:
 
   ![Walk Through Gif](develop/util/walkthrough.gif)
 
 
   For a full demonstration, please click: [Walk Through Demo](https://youtu.be/73_CB5p1jHg)
 
-  README Demo:
+  ### README Demo:
   ![README Demo](develop/util/demoShot.png)
 
   ## Installation
