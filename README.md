@@ -34,11 +34,13 @@
   Examples of views in the command line of the application: 
   ![Terminal Demo](develop/assets/terminal-screenshot.png)
 
-  Code snippets:
+  Example of how to import packages/files:
   ![Require files](develop/assets/require.png)
 
+  Functions on how to initialize program:
   ![Function declarations to run application](develop/assets/code.png)
 
+  How to set up shield badge colors in generateMD file:
   ![Snippet of badge markdowns](develop/assets/badges.png)
 
 
