@@ -44,6 +44,8 @@
 
   For a full demonstration, please click: [Walk Through Demo](https://youtu.be/73_CB5p1jHg)
 
+  README Demo:
+  ![README Demo](develop/util/demoShot.png)
 
   ## Installation
   This application requires the installment of 'inquirer' and 'fs' to run properly. To install the required dependencies, please run:
