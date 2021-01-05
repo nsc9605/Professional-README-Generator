@@ -32,21 +32,14 @@
 
   ## Demonstration
   Examples of views in the command line of the application: 
-  ![Terminal Demo](develop/assets/terminal-screenshot.png)
-
-  Example of how to import packages/files:
-  ![Require files](develop/assets/require.png)
+  ![Terminal Demo](develop/util/terminal-screenshot.png)
 
   Functions on how to initialize program:
-  ![Function declarations to run application](develop/assets/code.png)
-
-  How to set up shield badge colors in generateMD file:
-  ![Snippet of badge markdowns](develop/assets/badges.png)
-
+  ![Function declarations to run application](develop/util/code.png)
 
   GIF of walk through video:
 
-  ![Walk Through Gif](develop/assets/walkthrough.gif)
+  ![Walk Through Gif](develop/util/walkthrough.gif)
 
 
   For a full demonstration, please click: [Walk Through Demo](https://youtu.be/73_CB5p1jHg)
