@@ -6,7 +6,7 @@
 
   ## Description
 
-  This application helps in assisting developers to create a quaulity README.md in a quick and efficient way.
+  This application helps in assisting developers in creating a quality README.md in a quick and efficient way.
 
   
   ## Table of Contents
@@ -30,7 +30,7 @@
 
   Please follow the directions below in order to run this app:
 
-      Run in the terminal
+      Run in the command line
 
 
   ## License
